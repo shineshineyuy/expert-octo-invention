@@ -1,0 +1,46 @@
+# This file created by conda-build 3.24.0
+# ------------------------------------------------
+
+package:
+  name: prompt_toolkit
+  version: 3.0.43
+source:
+  sha256: 3527b7af26106cbc65a040bcc84839a3566ec1b051bb0bfe953631e704b0ff7d
+  url: https://pypi.io/packages/source/p/prompt_toolkit/prompt_toolkit-3.0.43.tar.gz
+build:
+  noarch: generic
+  number: 0
+  string: hd3eb1b0_0
+requirements:
+  build: []
+  run:
+    - prompt-toolkit >=3.0.43,<3.0.44.0a0
+test:
+  imports:
+    - prompt_toolkit
+about:
+  description: 'prompt_toolkit is a library for building powerful interactive command
+
+    lines and terminal applications in Python. It can be a pure Python
+
+    replacement for GNU readline, but it can be much more than that.
+
+    '
+  dev_url: https://github.com/prompt-toolkit/python-prompt-toolkit
+  doc_url: https://python-prompt-toolkit.readthedocs.io/
+  home: https://github.com/prompt-toolkit/python-prompt-toolkit
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: LICENSE
+  summary: Library for building powerful interactive command lines in Python
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: 1749ebaf-35f9-4237-998c-b8c893ed20fa
+  recipe-maintainers:
+    - asmeurer
+    - jakirkham
+    - ocefpaf
+    - scopatz
+  remote_url: git@github.com:AnacondaRecipes/prompt_toolkit-feedstock.git
+  sha: 1a323123df1d87008ee40659282fafe6dd90e1d4
